@@ -25,7 +25,7 @@ const Data = () => {
         },
         {
             "category": "Visual",
-            "score": 73,
+            "score": 72,
             "icon": iconVisual
         }
     ];
