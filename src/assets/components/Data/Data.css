@@ -1,0 +1,116 @@
+.Data {
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.DataChild {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 12px;
+    
+    height: 56px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.Reaction {
+
+background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+
+}
+
+
+.Memory {
+
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FFB21E;
+}
+
+.Verbal {
+
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F;
+}
+
+
+.Visual {
+
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6;
+    margin-bottom: 24px;
+}
+
+.CategoryP {
+
+    margin-right: auto;
+    margin-left: 12px;
+}
+
+.Reaction .CategoryP {
+    
+    color: #FF5555;
+    
+}
+
+
+.Memory .CategoryP {
+
+    color: #FFB21E;
+
+}
+
+.Verbal .CategoryP {
+
+    color: #00BB8F;
+}
+
+
+.Visual .CategoryP {
+    color: #1125D6;
+
+}
+
+
+.DataChild span {
+
+    font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* Dark Navy */
+
+color: #303B59;
+
+opacity: 0.5;
+}
+
+
+.DataChild p:last-of-type {
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    text-align: right;
+    
+    /* Dark Navy */
+    
+    color: #303B59;}
+
+
+
+    @media screen and (min-width: 800px) {
+
+
+        .Visual {
+
+            margin-bottom: 0;
+        }
+        
+    }
