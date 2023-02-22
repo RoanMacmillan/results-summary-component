@@ -26,7 +26,6 @@ html {
 
 body {
 
-  min-height: 100vh;
 
 
 }
@@ -168,7 +167,7 @@ h4 {
 
   body {
 
-    background-color: rgb(250, 253, 255);
+    background-color: white;
   }
 
   h4 {
@@ -184,14 +183,13 @@ h4 {
   .App {
 
     align-items: center;
-    height: 100vh;
-    background-color: rgb(250, 253, 255);
-
+    background-color: white;
+    padding: 142px 0;
+    
   }
 
   body {
 
-    height: 100vh;
   }
 
 }
